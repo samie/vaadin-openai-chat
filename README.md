@@ -9,6 +9,8 @@ create rich, interactive web interfaces with Java. It provides pre-built
 UI components, simplified data binding, and server-side processing for a 
 seamless development experience.
 
+<img width="494" alt="open-ai-vaadin-chat" src="https://user-images.githubusercontent.com/991105/231206982-35d9053e-9bed-4c16-b4a1-e462e79a9288.png">
+
 ## Running the application
 
 To run this application locally you need to get [OpenAI API key](https://platform.openai.com/account/api-keys) and
