@@ -1,9 +1,18 @@
-# GTPChat App
+# OpenAI Chat Vaadin App
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+This is a small sample how to use OpenAI chat completion API in Vaadin to
+create a own version of ChatGPT app using the Vaadin components like [MessageList](https://vaadin.com/docs/latest/components/message-list) 
+and [MessageInput](https://vaadin.com/docs/latest/components/message-input). 
+
+[Vaadin](https://vaadin.com/flow) is a web application development framework that allows developers to 
+create rich, interactive web interfaces with Java. It provides pre-built 
+UI components, simplified data binding, and server-side processing for a 
+seamless development experience.
 
 ## Running the application
+
+To run this application locally you need to get [OpenAI API key](https://platform.openai.com/account/api-keys) and
+update the `open.apikey` in you `src/main/resources/application.properties`.
 
 The project is a standard Maven project. To run it from the command line,
 type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
@@ -20,7 +29,7 @@ This will build a JAR file with all the dependencies and front-end resources,
 ready to be deployed. The file can be found in the `target` folder after the build completes.
 
 Once the JAR file is built, you can run it using
-`java -jar target/gtpchatapp-1.0-SNAPSHOT.jar`
+`java -jar target/vaadin-openai-chat-1.0-SNAPSHOT.jar`
 
 ## Project structure
 
@@ -51,11 +60,11 @@ To build the Dockerized version of the project, run
 
 ```
 mvn clean package -Pproduction
-docker build . -t gtpchatapp:latest
+docker build . -t vaadin-openai-chat:latest
 ```
 
 Once the Docker image is correctly built, you can test it locally using
 
 ```
-docker run -p 8080:8080 gtpchatapp:latest
+docker run -p 8080:8080 vaadin-openai-chat:latest
 ```
