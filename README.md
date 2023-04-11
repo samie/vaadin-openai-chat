@@ -17,7 +17,7 @@ To run this application locally you need to get [OpenAI API key](https://platfor
 update the `open.apikey` in you `src/main/resources/application.properties`.
 
 The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
+type `OPENAI_APIKEY=your_key_here mvnw` (Windows), or `OPENAI_APIKEY=your_key_here ./mvnw` (Mac & Linux), then open
 http://localhost:8080 in your browser.
 
 You can also import the project to your IDE of choice as you would with any
