@@ -19,6 +19,7 @@ package com.example.application;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -35,6 +36,7 @@ import java.util.stream.Collectors;
  *
  */
 @Component
+@Scope("session")
 public class OpenAI {
 
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
