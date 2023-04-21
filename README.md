@@ -4,6 +4,8 @@ This is a small sample how to use OpenAI chat completion API in Vaadin to
 create a own version of ChatGPT app using the Vaadin components like [MessageList](https://vaadin.com/docs/latest/components/message-list) 
 and [MessageInput](https://vaadin.com/docs/latest/components/message-input). 
 
+Read more about how the application was built in this blog post: [Building a Chatbot in Vaadin with OpenAI](https://dev.to/samiekblad/happy-path-building-a-chatbot-in-vaadin-with-openai-4b8a)
+
 [Vaadin](https://vaadin.com/flow) is a web application development framework that allows developers to 
 create rich, interactive web interfaces with Java. It provides pre-built 
 UI components, simplified data binding, and server-side processing for a 
