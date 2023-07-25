@@ -1,6 +1,6 @@
 # OpenAI Chat Vaadin App
 
-This is a small sample how to use OpenAI chat completion API in Vaadin to
+This is a small sample how to use OpenAI chat completion API in Vaadin and Spring Boot to
 create a own version of ChatGPT app using the Vaadin components like [MessageList](https://vaadin.com/docs/latest/components/message-list) 
 and [MessageInput](https://vaadin.com/docs/latest/components/message-input). 
 
